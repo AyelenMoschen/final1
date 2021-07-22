@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+body{
+	background-color: #5f939a;
+}
+#contenedor{
+	width: 	85%;
+	height: 700px;
+	max-width: 1280px;
+	background-color: #032646;
+	margin-left: auto;	
+	margin-right: auto;	
+}
+#cabecera{
+	width: 	100%;
+	height: 150px;
+	background-color: #0d335d;
+}
+	
+#botonera{
+	width: 100%;
+	height: 40px;
+	background-color: #3C6382;
+}
+
+#seccion{
+	width: 	100%;
+	height: 510px;
+	background-image: url(nena9.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#cuadro{
+	width: 31%;
+	height: 26%;
+	background-color: rgba(47, 84, 119, 0.7); 
+	margin-top: 21%;
+	float: left;
+	clear: both;
+	border-radius: 15px;	
+}
+
+#pie{
+	width: 	100%;
+	height: 50px;
+	background-color: #1a508b;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	width: 10%;
+	padding: 1%;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	float: right;
+	margin-right: 3%;
+	margin-left: 1%;
+	margin-top: 8%;
+	border-radius: 10px;
+	color: #ecf0f1;
+	background-color: rgba(46, 114, 159, 0.7); 
+	font-family: 'Montserrat', bold;
+}
+
+.logo{
+	margin-top: 1%;
+	float: left;
+	margin-left: 4%;
+	margin-top: 2%;
+}
+
+#menu2 li {
+	display: inline;
+}
+
+.nombre {
+	font-size: 16px;
+	font-family: 'Montserrat', bold;
+	text-decoration: none;
+	float: left;
+	margin-top: 1%;
+	margin-left: 1%;
+	color: #ffffff;
+}
+.floto{
+	margin-left: 4%;
+	margin-right: 8%;
+	margin-top: 1%;
+	float: left;
+	padding-right: 220px;
+	
+	
+}
+
+.floto1{
+	float: right;
+	margin-right: auto;
+	padding-left: 760px;
+	margin-top: -4%;
+}
+
+
+/*formulario*/
+
+#seccion_f{
+	width: 	100%;
+	height: 740px;
+	background-color: #61A2BC;
+	padding: 1% 6%;
+}
+
+#cuadro2{
+	width: 33%;
+	height: 23%;
+	background-color: rgba(47, 84, 119, 0.7); 
+	margin-top: 3%;
+	margin-right: 2%;
+	float: right;
+	clear: both;
+	border-radius: 15px;	
+}
+
+span{
+	color: black;
+	font-size: 16px;
+}
+
+#palabras{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.cajita{
+	width: 20%;
+	border-radius: 5px;
+	background-color: #82ccdd;
+}
+
+h1{
+	font-family: 'Montserrat', bold;
+	font-size: 21px;
+	width: 30%;
+	height: 35px;
+	background-color: rgba(12, 80, 133, 0.5); 
+	border-radius: 5px;
+	margin-left: 36%;
+	margin-right: 33%;
+	text-align: center;
+
+}
+
+.tituloss{
+	font-family: 'Montserrat', bold;
+	font-size: 21px;
+	width: 26%;
+	height: 35px;
+	background-color: rgba(12, 80, 133, 0.5); 
+	border-radius: 5px;
+	margin-left: 35%;
+	margin-right: 10%;
+	text-align: right;
+}
+
+.boton{
+	width: 15%;
+	height: 40px;
+	margin-left: 6%;
+	margin-top: 2%;
+	border-radius: 7px;
+	background-color: rgba(12, 80, 133, 0.9);  
+	color: #dcdde1;
+	font-family: 'Montserrat', bold;
+	font-size: 14px;
+}
+
+#cuadro2{
+	width: 36%;
+	height: 26%;
+	background-color: rgba(47, 84, 119, 0.7); 
+	margin-top: 10%;
+	margin-right: 6%;
+	float: right;
+	clear: both;
+	border-radius: 15px;	
+}
+
+#sorteof{
+	float: right;
+	margin-left: 50%;
+	margin-right: 33%;
+	margin-top: -35%;
+	opacity: 0.6
+}
+
+#flecha{
+	margin-top: -6%;
+	float: right;
+	margin-right: 50%;
+}
+
+#premios{ 
+	background-color: rgba(47, 84, 119, 0.7); 
+	width: 41%;
+	height: 26%;
+	float: right;
+	margin-top: 4%;
+	margin-left: 27%;
+	margin-right: 6%;
+	border-radius: 5px;
+}
+
+
+/*escenas*/
+
+#seccion_e{
+	width: 	100%;
+	height: 800px;
+	background-color: #61A2BC;
+	padding: 1% 4%;
+}
+
+.escena{
+	margin-left: 21%;
+	margin-right: 21%;
+	color: black;	
+	font-size: 16px;
+}
+
+#galeria{
+	margin-left: 5%;
+	padding: 1%;
+	margin-right: 6%;
+	background-color: rgba(47, 84, 119, 0.6);
+	border-radius: 10px;
+}
+
+#explicacion{
+	display: inline;	
+}
+
+#explicacion a{
+	color: #0d335d;
+
+}
+
+.primera{
+	margin-left: 5%;
+	margin-right: 65%;
+	color: black;
+	text-align: left;
+	font-size: 16px;
+}
+
+.titulo{
+	color: #130f40;
+	font-family: 'Montserrat', bold;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+
+.segunda{
+	margin-left: 36%;
+	margin-right: 38%;
+	margin-top: -20%;
+	color: black;
+	text-align: left;
+	font-size: 16px;
+}
+
+.tercera{
+	margin-left: 65%;
+	margin-right: 6%;
+	margin-top: -29%;
+	color: black;
+	text-align: left;
+	font-size: 16px;
+}
+
+.ojo{
+	float: right;
+	margin-right: 1%;
+}
+
+.play{
+	margin-left: 36%;
+	margin-right: 10%;
+}
+
+/*micrositio
+ayelenmoschen*/
+
+#seccionm{
+	width: 	100%;
+	height: 510px;
+	background-image: url(tablet1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#cuadrom{
+	width: 16%;
+	height: 11%;
+	background-color: rgba(47, 84, 119, 0.7); 
+	margin-top: 13%;
+	margin-left: 3%;
+	float: left;
+	clear: both;
+	border-radius: 10px;	
+}
+
+/*wireframe*/
+
+#galerias{
+	padding: 2%;
+	background-color: rgba(47, 84, 119, 0.6);
+	border-radius: 10px;
+}
+
+/*elecciones*/
+
+.destacado{
+	color: #130f40;
+}
+
+.fotos2{
+	margin-top: 6%;
+	margin-right: 3%;
+	float: right;
+	background-color: rgba(47, 84, 119, 0.7);
+	border-radius: 10px;
+}
+
+.fotos3{
+	margin-top: 3%;
+	margin-right: 3%;
+	margin-left: 50%;
+	float: right;
+	background-color: rgba(47, 84, 119, 0.7);
+	border-radius: 10px;
+}
+
+.sarat2{
+	width: 45%;
+	height: 30%;
+	float: left;
+	margin-right: 3%;
+	margin-top: 6%;
+	display: inline-block;
+	vertical-align: middle;
+	color: black;
+	font-size: 16px;
+}
+
+.mariet2{
+	width: 45%;
+	float: left;
+	margin-top: 4%;
+	margin-right: 3%;
+	color: black;
+	font-size: 16px;
+}
+
+.mariet3{
+	width: 45%;
+	float: left;
+	margin-top: -27%;
+	margin-right: 3%;
+	color: black;
+	font-size: 16px;
+}
+
+.titulo{
+	color: #130f40;
+	font-family: 'Montserrat', bold;
+	font-size: 19px;
+	text-decoration: underline;
+}
+
+
+/*logo y video*/
+
+.logou{
+	margin-left: 6%;
+	
+}
+
+#logol{
+	margin-left: 22%;
+	margin-right: 20%;	
+	background-color: rgba(47, 84, 119, 0.9);
+	border-radius: 10px;
+}
+
+.ojovv{
+	margin-top: 1%;
+	float: left;
+	margin-left: 5%;
+}
+
+.ojov{
+	margin-top: 1%;
+	float: right;
+	margin-right: 5%;
+}
+
+.titulov{
+	margin-top: 6%;
+}
+
+#videov{	
+	margin-top: 5%;
+	float: left;
+	margin-left: 5%;
+	
+}
+
+.escenav{
+	width: 30%;
+	float: right;
+	color: black;	
+	font-size: 16px;
+	margin-top: -30%;
+	margin-right: 10%;
+
+}
+
+#texto{
+	margin-top: 5%;
+	float: right;
+
+}
+
+/*personajes*/
+
+#seccion_p{
+	width: 	100%;
+	height: 985px;
+	background-color: #61A2BC;
+	padding: 1% 4%;
+}
+
+#descripcion a{
+	color: #0d335d;
+
+}
+
+
+.fotos{
+	margin-top: 3%;
+	background-color: rgba(47, 84, 119, 0.6);
+	border-radius: 10px;
+}
+
+.sarat{
+	width: 45%;
+	height: 30%;
+	float: right;
+	margin-right: 9%;
+	margin-top: 6%;
+	display: inline-block;
+	vertical-align: middle;
+	color: black;
+	font-size: 16px;
+}
+
+.mariet{
+	width: 45%;
+	float: right;
+	margin-top: -13%;
+	margin-right: 9%;
+	color: black;
+	font-size: 16px;
+}
+
+h2{
+	font-size: 15px;
+	float: left;
+	margin-top: 12%;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+#video{
+	
+	float: right;
+	margin-right: 7%;
+}
+
+p{
+	font-size: 90%;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	margin:5%;
+
+
+
+
+
